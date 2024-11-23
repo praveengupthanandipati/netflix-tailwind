@@ -179,8 +179,8 @@
     <!--/ banner-->
 
     <!-- trending now section -->
-    <section class="container mx-auto my-8">
-        <h2 class="text-4xl font-bold text-white">Trending Now</h2>
+    <section class="container mx-auto mt-10">
+        <h2 class="text-3xl font-bold text-white">Trending Now</h2>
         <div class="flex">
             <form class="max-w-sm mt-5 flex">
                 <div>
@@ -206,7 +206,7 @@
         </div>
 
 
-        <div class="gallery container mx-auto mt-8">
+        <div class="gallery container mx-auto mt-10">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -315,9 +315,125 @@
                 <div class="swiper-button-next"></div>
             </div>
         </div>
-
     </section>
     <!--/ trending now section-->
+
+    <!-- more reasons to join-->
+    <section class="container mx-auto mt-10">
+        <h2 class="text-3xl font-bold text-white">More Reasons to Join</h2>
+        <div class="grid grid-cols-4 gap-4 mt-6">
+            <div class="p-4 rounded-xl bg-gray-900">
+                <h2 class="text-xl text-white font-semibold pb-4">Stories tailored to your taste</h2>
+                <div class="text-end">
+                    <img src="img/like.svg" alt="" class="w-[65px] float-right">
+                </div>
+            </div>
+            <div class="p-4 rounded-xl bg-gray-900">
+                <h2 class="text-xl text-white font-semibold pb-4">Cancel or switch plans anytime</h2>
+                <div class="text-end">
+                    <img src="img/handshake.svg" alt="" class="w-[65px] float-right">
+                </div>
+            </div>
+            <div class="p-4 rounded-xl bg-gray-900">
+                <h2 class="text-xl text-white font-semibold pb-4">A place just for kids</h2>
+                <div class="text-end">
+                    <img src="img/heart.svg" alt="" class="w-[65px] float-right">
+                </div>
+            </div>
+            <div class="p-4 rounded-xl bg-gray-900">
+                <h2 class="text-xl text-white font-semibold pb-4">For your phone, tablet, laptop</h2>
+                <div class="text-end">
+                    <img src="img/responsive.svg" alt="" class="w-[65px] float-right">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/ more reasons to join-->
+
+    <!-- faq-->
+    <section class="container mx-auto mt-10">
+        <h2 class="text-3xl font-bold text-white">Frequently Asked Questions</h2>
+
+        <div id="accordion-flush" data-accordion="collapse" class="mt-7"
+            data-active-classes="bg-white dark:bg-gray-900 text-gray-900 dark:text-white"
+            data-inactive-classes="text-gray-500 dark:text-gray-400">
+            <h2 id="accordion-flush-heading-1">
+                <button type="button"
+                    class="flex items-center justify-between w-full py-5 font-medium rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3"
+                    data-accordion-target="#accordion-flush-body-1" aria-expanded="true"
+                    aria-controls="accordion-flush-body-1">
+                    <span>What is Netflix?</span>
+                    <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M9 5 5 1 1 5" />
+                    </svg>
+                </button>
+            </h2>
+            <div id="accordion-flush-body-1" class="hidden" aria-labelledby="accordion-flush-heading-1">
+                <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+                    <p class="text-white text-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa cum vel nihil
+                        magni quasi, quae
+                        voluptate. Sunt deleniti est provident placeat natus beatae numquam corrupti quas eos, delectus,
+                        vitae dignissimos accusamus perspiciatis quibusdam sed quasi illo vero ducimus ratione ea
+                        tenetur sit ipsum accusantium? Pariatur veniam illo natus ea, labore ratione, eum quo, hic ab
+                        ipsum repellendus atque praesentium incidunt placeat voluptatibus voluptatum! Beatae expedita
+                        veritatis consequuntur eius quidem modi ipsum pariatur eaque minima voluptas autem optio
+                        nesciunt architecto, magni libero quo perferendis dolor, consectetur adipisci totam cupiditate
+                        praesentium rerum error eum! Asperiores esse est accusantium consectetur nulla ea, sed quas
+                        beatae nisi natus, nostrum autem voluptas odio atque iure consequuntur dolore placeat dolores
+                        nihil a minima non id error. Repellendus enim iste minima unde hic nulla est voluptates
+                        necessitatibus dolores incidunt ducimus architecto odit quisquam, sequi labore, sint dolor
+                        dolore. Nemo vero, odio consectetur repellat rem accusamus neque veritatis?</p>
+                </div>
+            </div>
+            <h2 id="accordion-flush-heading-2">
+                <button type="button"
+                    class="flex items-center justify-between w-full py-5 font-medium rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3"
+                    data-accordion-target="#accordion-flush-body-2" aria-expanded="false"
+                    aria-controls="accordion-flush-body-2">
+                    <span>How much does Netflix Cost?</span>
+                    <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M9 5 5 1 1 5" />
+                    </svg>
+                </button>
+            </h2>
+            <div id="accordion-flush-body-2" class="hidden" aria-labelledby="accordion-flush-heading-2">
+                <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+                    <p class="text-white text-md">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum quis nesciunt,
+                        debitis tempora
+                        eius accusamus eveniet porro tenetur a, nemo, sunt facere quas sequi id.</p>>
+                </div>
+            </div>
+            <h2 id="accordion-flush-heading-3">
+                <button type="button"
+                    class="flex items-center justify-between w-full py-5 font-medium rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3"
+                    data-accordion-target="#accordion-flush-body-3" aria-expanded="false"
+                    aria-controls="accordion-flush-body-3">
+                    <span>Where Can i Watch</span>
+                    <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M9 5 5 1 1 5" />
+                    </svg>
+                </button>
+            </h2>
+            <div id="accordion-flush-body-3" class="hidden" aria-labelledby="accordion-flush-heading-3">
+                <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+                    <p class="text-white text-md">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quam recusandae
+                        nihil? Harum iure sapiente tempore ipsum beatae, aspernatur voluptatum suscipit vel explicabo
+                        vitae dicta maiores
+                        exercitationem molestias ipsa ad voluptatibus. Quis dolores error necessitatibus nam ducimus
+                        ipsa voluptatibus nostrum?</p>>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--/ faq-->
 
 
     <script src="scripts/swiper.min.js"></script>
